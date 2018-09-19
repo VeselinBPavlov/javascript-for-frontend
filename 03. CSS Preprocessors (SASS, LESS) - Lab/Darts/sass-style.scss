@@ -1,0 +1,71 @@
+$brown-circle: brown;
+$blue-circle: blue;
+$green-circle: green;
+$yellow-circle: yellow;
+$red-circle: red;
+
+@mixin div-styles {
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-size: 24px;
+}
+
+@mixin p-styles {
+  margin: 0;
+  padding-top: 15px;
+}
+
+div {
+  @include div-styles;
+  background: $brown-circle;
+  width: 500px;
+  height: 500px;
+  margin-top: 5%;
+  p {
+    @include p-styles;
+  }
+  div {
+    @include div-styles;
+    background: $blue-circle;
+    width: 400px;
+    height: 400px;
+    margin-top: 2%;
+    p {
+      @include p-styles;
+    }
+    div {
+      @include div-styles;
+      background: $green-circle;
+      width: 300px;
+      height: 300px;
+      margin-top: 3%;
+      p {
+        @include p-styles;
+      }
+      div {
+        @include div-styles;
+        background: $yellow-circle;
+        width: 200px;
+        height: 200px;
+        margin-top: 3%;
+        p {
+          @include p-styles;
+        }
+        div {
+          @include div-styles;
+          background: $red-circle;
+          width: 100px;
+          height: 100px;
+          margin-top: 5%;
+          p {
+            @include p-styles;
+            padding-top: 35px;
+          }
+        }
+      }
+    }
+  }
+}
+

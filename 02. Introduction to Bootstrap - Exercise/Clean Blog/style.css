@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:900');
+
+body {
+    background-image: url("bg-book-open.jpg");
+    background-size: cover;
+}
+
+.header h1, .header p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header p {
+    font-weight: lighter;
+}

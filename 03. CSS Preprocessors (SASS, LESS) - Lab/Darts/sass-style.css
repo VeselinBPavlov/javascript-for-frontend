@@ -1,0 +1,68 @@
+div {
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-size: 24px;
+  background: brown;
+  width: 500px;
+  height: 500px;
+  margin-top: 5%; }
+  div p {
+    margin: 0;
+    padding-top: 15px; }
+  div div {
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+    background: blue;
+    width: 400px;
+    height: 400px;
+    margin-top: 2%; }
+    div div p {
+      margin: 0;
+      padding-top: 15px; }
+    div div div {
+      border-radius: 50%;
+      color: white;
+      text-align: center;
+      margin: auto;
+      font-size: 24px;
+      background: green;
+      width: 300px;
+      height: 300px;
+      margin-top: 3%; }
+      div div div p {
+        margin: 0;
+        padding-top: 15px; }
+      div div div div {
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        margin: auto;
+        font-size: 24px;
+        background: yellow;
+        width: 200px;
+        height: 200px;
+        margin-top: 3%; }
+        div div div div p {
+          margin: 0;
+          padding-top: 15px; }
+        div div div div div {
+          border-radius: 50%;
+          color: white;
+          text-align: center;
+          margin: auto;
+          font-size: 24px;
+          background: red;
+          width: 100px;
+          height: 100px;
+          margin-top: 5%; }
+          div div div div div p {
+            margin: 0;
+            padding-top: 15px;
+            padding-top: 35px; }
+
+/*# sourceMappingURL=sass-style.css.map */

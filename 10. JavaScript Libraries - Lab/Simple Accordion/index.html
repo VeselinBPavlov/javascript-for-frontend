@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Accordion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/esm/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="sass-style.css">
+</head>
+<body>
+
+<div id="accordion" role="tablist" class="col-lg-4 mx-auto">
+    <h1 class="text-center">A Simple Accordion</h1>
+    <div class="card">
+        <div class="card-header" role="tab" id="headingOne">
+            <h5 class="mb-0">
+                <li data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Item 1
+                </li>
+            </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+                <p> Option 1</p>
+                <p> Option 2</p>
+                <p> Option 3</p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" role="tab" id="headingTwo">
+            <h5 class="mb-0">
+                <li class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Item 2
+                </li>
+            </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+                <p> Option 1</p>
+                <p> Option 2</p>
+                <p> Option 3</p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" role="tab" id="headingThree">
+            <h5 class="mb-0">
+                <li class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Item 3
+                </li>
+            </h5>
+        </div>
+        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+                <p> Option 1</p>
+                <p> Option 2</p>
+                <p> Option 3</p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" role="tab" id="headingfour">
+            <h5 class="mb-0">
+                <li class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Item 4
+                </li>
+            </h5>
+        </div>
+        <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+                <p> Option 1</p>
+                <p> Option 2</p>
+                <p> Option 3</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

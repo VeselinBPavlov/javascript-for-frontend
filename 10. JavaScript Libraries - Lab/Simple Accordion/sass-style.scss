@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Markazi+Text|Noto+Serif');
+
+body {
+  margin:50px;
+  font-family: 'Noto Serif', serif;
+}
+
+#accordion .glyphicon {
+  margin-right:10px;
+}
+
+.panel-collapse>.list-group .list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.panel-collapse>.list-group .list-group-item {
+  border-width: 1px 0;
+}
+
+.panel-collapse>.list-group {
+  margin-bottom: 0;
+}
+
+.panel-collapse .list-group-item {
+  border-radius:0;
+}
+
+h1 {
+  color: brown;
+}
+
+li {
+  list-style: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.card-header {
+  background: brown;
+}
+
+p {
+  color: brown;
+}
+
+.collapse {
+  border: none;
+}
