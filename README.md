@@ -10,9 +10,5 @@
 07. JavaScript Libraries
 08. Introduction to AJAX
 
-## Status:
-Uncomplete
 
-## Certificate:
-none
 
